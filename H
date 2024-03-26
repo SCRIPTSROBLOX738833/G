@@ -1,0 +1,55 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "team New Discover 1.1اصدار", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Tab = Window:MakeTab({
+	Name = "القائمه الرئيسيه",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "ربط حساب مطور السكربت",
+	Callback = function()
+      		setclipboard("https://www.roblox.com/users/3333777497/profile")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "ربط يوتيوب",
+	Callback = function()
+      		setclipboard("https://www.youtube.com/@Anas_Gaming88782")
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "السكربتات",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "قتل قوي",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/script"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "الرجل المقطوعة",
+	Callback = function()
+      		loadstring(game:HttpGet('https://pastebin.com/raw/H5yx10Jq'))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "سكربت طيران",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "طيران سياره",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/MHE1cbWF"))()
+  	end    
+})
